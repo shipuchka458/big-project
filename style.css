@@ -1,1 +1,39 @@
-p
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Шапка */
+.header {
+  background: #1f2937; /* тёмный фон */
+  height: 80px;
+}
+
+/* Первый блок */
+.hero {
+  background: linear-gradient(135deg, #1f2937, #111827); /* градиент */
+  height: 100vh;
+}
+
+/* Второй блок */
+.info {
+  background: white;
+  height: 100vh;
+}
+
+/* Третий блок */
+.quote {
+  background: #e5e7eb;
+  height: 100vh;
+}
+
+/* Футер */
+.footer {
+  background: #111827;
+  height: 150px;
+}
