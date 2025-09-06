@@ -109,8 +109,35 @@ body {
 .hero3 {
   background: #e5e7eb;
   height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20 px;
 }
 
+.quote{
+    max-width: 800px;
+}
+
+
+.q{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: black;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+}
+
+
+.autor{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    color: black;
+}
 /* Футер */
 .footer {
   background: #1F2937;
