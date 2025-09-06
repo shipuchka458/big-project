@@ -63,8 +63,47 @@ body {
 /* Второй блок */
 .hero2 {
   background: white;
-  height: 85vh;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 40px;
+
 }
+
+.hero2_title{
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 40px;
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+}
+
+
+.info-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 150px;
+    text-align: center;
+}
+
+.box img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid rgb(81, 140, 212);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* Третий блок */
 .hero3 {
