@@ -14,26 +14,56 @@ body {
   height: 80px;
 }
 
-/* Первый блок */
-.hero {
-  background: linear-gradient(135deg, #1f2937, #111827); /* градиент */
-  height: 100vh;
+/* синий блок */
+.hero1 {
+  background: #1f2937;
+  height: 85vh;
+  display: flex;
+  justify-content: space-between; /* раздвигаем текст и картинку */
+  align-items: center;          /* выравниваем по центру по вертикали */
+  padding: 60px;
 }
 
 /* Второй блок */
-.info {
+.hero2 {
   background: white;
-  height: 100vh;
+  height: 85vh;
 }
 
 /* Третий блок */
-.quote {
+.hero3 {
   background: #e5e7eb;
-  height: 100vh;
+  height: 85vh;
 }
 
 /* Футер */
 .footer {
-  background: #111827;
+  background: #1F2937;
   height: 150px;
+}
+
+
+.sing-up-button{
+    background: #3882F6;
+    color: white;
+    font-size: 16px;
+}
+
+.hero-content{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.hero_title{
+    color: white;
+    flex: 1;
+    max-width: 500px
+}
+
+.hero_media{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
 }
